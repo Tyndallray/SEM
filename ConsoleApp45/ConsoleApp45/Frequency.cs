@@ -27,6 +27,7 @@ namespace ConsoleApp45
             this.StartDate = startDate;
             this.EveryXOccurance = EveryXOccurance;
             this.FrequencyType = FrequencyType.Standard;
+            console.WriteLine("fixed");
         }
 
         public Frequency(Repeat repeat, DateTime startDate, int EveryXOccurance = 1, DaysOfWeek daysOfWeek = DaysOfWeek.Sunday) // weekly overloaded
